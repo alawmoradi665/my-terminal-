@@ -22,7 +22,7 @@ describe CustomerOrder do
         expect(@customer.welcome_msg).to eq(msg)
     end
     it "display the menu" do
-        menu = ("1. Nachos" => 10, "2. Pizza" => 15, "3. Fries" => 8)
+        menu = {"1. Nachos" => 10, "2. Pizza" => 15, "3. Fries" => 8}
         expect(@customer.menu).to eq(menu)
     end
     it "get item price based on user choice"
