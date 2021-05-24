@@ -21,7 +21,7 @@ class CustomerOrder
         @menu_list = {1 => 10, 2 => 15, 3 => 8}
 
         menu_items.each do|item, price|
-            p "#{item} ----- #{price}"
+            p "#{item} ----- #{price}",
     end
 
     def get_item_price(user_choice)

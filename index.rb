@@ -19,10 +19,11 @@
 require_relative "customer_order.rb"
 
 #instance of the customer class 
-@customer - CustomerOrder.new("Bob")
+@customer = CustomerOrder.new("Bob")
 
 #call the welcome_msg and menu method
 customer.welcome_msg
+
 #this is a flag, the loop is based on it like while ordering is true, do so and so. while ordering is false, do so and so.
 ordering = true
 #loop
